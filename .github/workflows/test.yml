@@ -4,6 +4,7 @@ on: push
 
 jobs:
     say_hello:
+        name: Say hello from CI
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
